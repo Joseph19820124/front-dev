@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Navbar } from '@/components/navbar'
-import { Github, Linkedin, Mail, Code2, Palette, Zap } from 'lucide-react'
+import { Mail, Code2, Palette, Zap, Monitor, Settings, BookOpen, Compass, Github, Linkedin } from 'lucide-react'
 
 export default function AboutPage() {
   return (
@@ -9,10 +9,11 @@ export default function AboutPage() {
       <Navbar />
       <main className="min-h-screen bg-background py-12 px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold mb-4">About Me</h1>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                A passionate developer dedicated to crafting elegant, high-performance modern web applications with clean architecture and seamless user experience.
+          <div className="text-center mb-16">
+            <h1 className="text-5xl font-bold mb-6">About Me</h1>
+            <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+              A developer crafting elegant, scalable web applications with AI-powered experiences, integrating Generative AI technologies such as LLMs and AI agents to deliver smarter, adaptive digital products.
             </p>
           </div>
 
@@ -26,21 +27,39 @@ export default function AboutPage() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div>
-                  <h4 className="font-semibold mb-2">Frontend Development</h4>
+                  <h4 className="font-semibold mb-2 flex items-center gap-2">
+                    <span>💻</span>
+                    Frontend Development
+                  </h4>
                   <p className="text-sm text-muted-foreground">
-                    React, Next.js, TypeScript, Tailwind CSS, shadcn/ui
+                    React, Next.js, TypeScript, Tailwind CSS, shadcn/ui, Android, iOS
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2">Backend Development</h4>
+                  <h4 className="font-semibold mb-2 flex items-center gap-2">
+                    <span>🔧</span>
+                    Backend Development
+                  </h4>
                   <p className="text-sm text-muted-foreground">
-                    Node.js, Python, PostgreSQL, MongoDB
+                    Node.js, Python, .NET, Java, PostgreSQL, MongoDB
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2">Tools & Others</h4>
+                  <h4 className="font-semibold mb-2 flex items-center gap-2">
+                    <span>🛠️</span>
+                    Tools & Others
+                  </h4>
                   <p className="text-sm text-muted-foreground">
-                    Git, Docker, AWS, Vercel, Jest, Vitest
+                    Git, Docker, Vercel, Jest, Vitest
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2 flex items-center gap-2">
+                    <span>☁️</span>
+                    Cloud Computing
+                  </h4>
+                  <p className="text-sm text-muted-foreground">
+                    AWS, Azure, GCP
                   </p>
                 </div>
               </CardContent>
@@ -55,21 +74,30 @@ export default function AboutPage() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div>
-                  <h4 className="font-semibold mb-2">User Experience First</h4>
+                  <h4 className="font-semibold mb-2 flex items-center gap-2">
+                    <span>🧭</span>
+                    User Experience First
+                  </h4>
                   <p className="text-sm text-muted-foreground">
-                    Always prioritize user needs and create intuitive, easy-to-use interfaces
+                    I place user needs at the heart of every decision, crafting intuitive, seamless, and accessible interfaces that elevate the user journey.
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2">Performance & Maintainability</h4>
+                  <h4 className="font-semibold mb-2 flex items-center gap-2">
+                    <span>⚙️</span>
+                    Performance & Maintainability
+                  </h4>
                   <p className="text-sm text-muted-foreground">
-                    Write clean, efficient code to ensure long-term stability of applications
+                    My code is clean, efficient, and scalable — designed not only to perform well today but to remain stable and maintainable in the long run.
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2">Continuous Learning</h4>
+                  <h4 className="font-semibold mb-2 flex items-center gap-2">
+                    <span>📚</span>
+                    Continuous Learning
+                  </h4>
                   <p className="text-sm text-muted-foreground">
-                    Keep up with technology trends and continuously improve skills and knowledge
+                    I embrace a growth mindset, staying ahead of technology trends and consistently sharpening my skills to build better, smarter solutions.
                   </p>
                 </div>
               </CardContent>
