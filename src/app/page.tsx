@@ -17,11 +17,14 @@ import {
   SelectValue,
 } from '@/components/ui/select'
 import { Loading } from '@/components/ui/loading'
+import { Navbar } from '@/components/navbar'
 import { Package, Terminal, Code2, Palette, Mail } from 'lucide-react'
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-background py-8 px-4">
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-background py-8 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-2">
@@ -164,5 +167,6 @@ export default function HomePage() {
         </div>
       </div>
     </main>
+    </>
   )
 }
