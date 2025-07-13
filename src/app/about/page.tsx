@@ -10,10 +10,9 @@ export default function AboutPage() {
       <main className="min-h-screen bg-background py-12 px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold mb-4">About ME</h1>
+            <h1 className="text-4xl font-bold mb-4">About Me</h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                 A passionate developer dedicated to crafting elegant, high-performance modern web applications with clean architecture and seamless user experience.
-
             </p>
           </div>
 
@@ -22,24 +21,24 @@ export default function AboutPage() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Code2 className="w-5 h-5" />
-                  技术栈
+                  Software stack
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div>
-                  <h4 className="font-semibold mb-2">前端开发</h4>
+                  <h4 className="font-semibold mb-2">Frontend Development</h4>
                   <p className="text-sm text-muted-foreground">
                     React, Next.js, TypeScript, Tailwind CSS, shadcn/ui
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2">后端开发</h4>
+                  <h4 className="font-semibold mb-2">Backend Development</h4>
                   <p className="text-sm text-muted-foreground">
                     Node.js, Python, PostgreSQL, MongoDB
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2">工具 & 其他</h4>
+                  <h4 className="font-semibold mb-2">Tools & Others</h4>
                   <p className="text-sm text-muted-foreground">
                     Git, Docker, AWS, Vercel, Jest, Vitest
                   </p>
@@ -51,26 +50,26 @@ export default function AboutPage() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Palette className="w-5 h-5" />
-                  设计理念
+                  Design Philosophy
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div>
-                  <h4 className="font-semibold mb-2">用户体验优先</h4>
+                  <h4 className="font-semibold mb-2">User Experience First</h4>
                   <p className="text-sm text-muted-foreground">
-                    始终以用户需求为中心，创造直观易用的界面
+                    Always prioritize user needs and create intuitive, easy-to-use interfaces
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2">性能与可维护性</h4>
+                  <h4 className="font-semibold mb-2">Performance & Maintainability</h4>
                   <p className="text-sm text-muted-foreground">
-                    编写清洁、高效的代码，确保应用程序的长期稳定性
+                    Write clean, efficient code to ensure long-term stability of applications
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2">持续学习</h4>
+                  <h4 className="font-semibold mb-2">Continuous Learning</h4>
                   <p className="text-sm text-muted-foreground">
-                    跟上技术发展趋势，不断提升技能和知识
+                    Keep up with technology trends and continuously improve skills and knowledge
                   </p>
                 </div>
               </CardContent>
@@ -81,7 +80,7 @@ export default function AboutPage() {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Zap className="w-5 h-5" />
-                项目亮点
+                Project Highlights
               </CardTitle>
             </CardHeader>
             <CardContent>
@@ -90,27 +89,27 @@ export default function AboutPage() {
                   <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Code2 className="w-8 h-8 text-primary" />
                   </div>
-                  <h4 className="font-semibold mb-2">现代化架构</h4>
+                  <h4 className="font-semibold mb-2">Modern Architecture</h4>
                   <p className="text-sm text-muted-foreground">
-                    使用最新的技术栈构建可扩展的应用程序
+                    Build scalable applications using the latest technology stack
                   </p>
                 </div>
                 <div className="text-center">
                   <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Palette className="w-8 h-8 text-primary" />
                   </div>
-                  <h4 className="font-semibold mb-2">响应式设计</h4>
+                  <h4 className="font-semibold mb-2">Responsive Design</h4>
                   <p className="text-sm text-muted-foreground">
-                    确保在所有设备上都有完美的用户体验
+                    Ensure perfect user experience across all devices
                   </p>
                 </div>
                 <div className="text-center">
                   <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Zap className="w-8 h-8 text-primary" />
                   </div>
-                  <h4 className="font-semibold mb-2">高性能优化</h4>
+                  <h4 className="font-semibold mb-2">High Performance</h4>
                   <p className="text-sm text-muted-foreground">
-                    通过最佳实践实现快速加载和流畅交互
+                    Achieve fast loading and smooth interactions through best practices
                   </p>
                 </div>
               </div>
@@ -118,7 +117,7 @@ export default function AboutPage() {
           </Card>
 
           <div className="text-center">
-            <h3 className="text-2xl font-bold mb-6">联系我</h3>
+            <h3 className="text-2xl font-bold mb-6">Contact Me</h3>
             <div className="flex justify-center gap-4">
               <Button variant="outline" size="lg" className="flex items-center gap-2">
                 <Github className="w-4 h-4" />
@@ -130,7 +129,7 @@ export default function AboutPage() {
               </Button>
               <Button size="lg" className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                发邮件给我
+                Send Email
               </Button>
             </div>
           </div>
