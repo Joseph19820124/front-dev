@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Navbar } from '@/components/navbar'
-import { Mail, Code2, Palette, Zap, Monitor, Settings, BookOpen, Compass, Github, Linkedin } from 'lucide-react'
+import { Mail, Code2, Palette, Zap, Monitor, Settings, BookOpen, Compass, Server, Cloud, Wrench } from 'lucide-react'
 
 export default function AboutPage() {
   return (
@@ -26,41 +26,43 @@ export default function AboutPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div>
-                  <h4 className="font-semibold mb-2 flex items-center gap-2">
-                    <span>💻</span>
-                    Frontend Development
-                  </h4>
-                  <p className="text-sm text-muted-foreground">
-                    React, Next.js, TypeScript, Tailwind CSS, shadcn/ui, Android, iOS
-                  </p>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2 flex items-center gap-2">
-                    <span>🔧</span>
-                    Backend Development
-                  </h4>
-                  <p className="text-sm text-muted-foreground">
-                    Node.js, Python, .NET, Java, PostgreSQL, MongoDB
-                  </p>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2 flex items-center gap-2">
-                    <span>🛠️</span>
-                    Tools & Others
-                  </h4>
-                  <p className="text-sm text-muted-foreground">
-                    Git, Docker, Vercel, Jest, Vitest
-                  </p>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2 flex items-center gap-2">
-                    <span>☁️</span>
-                    Cloud Computing
-                  </h4>
-                  <p className="text-sm text-muted-foreground">
-                    AWS, Azure, GCP
-                  </p>
+                <div className="space-y-6">
+                  <div>
+                    <h4 className="font-semibold mb-3 flex items-center gap-2">
+                      <Monitor className="w-4 h-4 text-primary" />
+                      Frontend Development
+                    </h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      React, Next.js, TypeScript, Tailwind CSS, shadcn/ui, Android, iOS
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold mb-3 flex items-center gap-2">
+                      <Server className="w-4 h-4 text-primary" />
+                      Backend Development
+                    </h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      Node.js, Python, .NET, Java, PostgreSQL, MongoDB
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold mb-3 flex items-center gap-2">
+                      <Wrench className="w-4 h-4 text-primary" />
+                      Tools & Others
+                    </h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      Git, Docker, Vercel, Jest, Vitest
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold mb-3 flex items-center gap-2">
+                      <Cloud className="w-4 h-4 text-primary" />
+                      Cloud Computing
+                    </h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      AWS, Azure, GCP
+                    </p>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -73,32 +75,34 @@ export default function AboutPage() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div>
-                  <h4 className="font-semibold mb-2 flex items-center gap-2">
-                    <span>🧭</span>
-                    User Experience First
-                  </h4>
-                  <p className="text-sm text-muted-foreground">
-                    I place user needs at the heart of every decision, crafting intuitive, seamless, and accessible interfaces that elevate the user journey.
-                  </p>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2 flex items-center gap-2">
-                    <span>⚙️</span>
-                    Performance & Maintainability
-                  </h4>
-                  <p className="text-sm text-muted-foreground">
-                    My code is clean, efficient, and scalable — designed not only to perform well today but to remain stable and maintainable in the long run.
-                  </p>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2 flex items-center gap-2">
-                    <span>📚</span>
-                    Continuous Learning
-                  </h4>
-                  <p className="text-sm text-muted-foreground">
-                    I embrace a growth mindset, staying ahead of technology trends and consistently sharpening my skills to build better, smarter solutions.
-                  </p>
+                <div className="space-y-6">
+                  <div>
+                    <h4 className="font-semibold mb-3 flex items-center gap-2">
+                      <Compass className="w-4 h-4 text-primary" />
+                      User Experience First
+                    </h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      I place user needs at the heart of every decision, crafting intuitive, seamless, and accessible interfaces that elevate the user journey.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold mb-3 flex items-center gap-2">
+                      <Settings className="w-4 h-4 text-primary" />
+                      Performance & Maintainability
+                    </h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      My code is clean, efficient, and scalable — designed not only to perform well today but to remain stable and maintainable in the long run.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold mb-3 flex items-center gap-2">
+                      <BookOpen className="w-4 h-4 text-primary" />
+                      Continuous Learning
+                    </h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      I embrace a growth mindset, staying ahead of technology trends and consistently sharpening my skills to build better, smarter solutions.
+                    </p>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -112,31 +116,31 @@ export default function AboutPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="grid md:grid-cols-3 gap-6">
-                <div className="text-center">
-                  <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Code2 className="w-8 h-8 text-primary" />
+              <div className="grid md:grid-cols-3 gap-8">
+                <div className="text-center group">
+                  <div className="bg-gradient-to-br from-primary/10 to-primary/5 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-105 transition-transform duration-200">
+                    <Code2 className="w-10 h-10 text-primary" />
                   </div>
-                  <h4 className="font-semibold mb-2">Modern Architecture</h4>
-                  <p className="text-sm text-muted-foreground">
+                  <h4 className="font-semibold mb-3 text-lg">Modern Architecture</h4>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
                     Build scalable applications using the latest technology stack
                   </p>
                 </div>
-                <div className="text-center">
-                  <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Palette className="w-8 h-8 text-primary" />
+                <div className="text-center group">
+                  <div className="bg-gradient-to-br from-primary/10 to-primary/5 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-105 transition-transform duration-200">
+                    <Palette className="w-10 h-10 text-primary" />
                   </div>
-                  <h4 className="font-semibold mb-2">Responsive Design</h4>
-                  <p className="text-sm text-muted-foreground">
+                  <h4 className="font-semibold mb-3 text-lg">Responsive Design</h4>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
                     Ensure perfect user experience across all devices
                   </p>
                 </div>
-                <div className="text-center">
-                  <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Zap className="w-8 h-8 text-primary" />
+                <div className="text-center group">
+                  <div className="bg-gradient-to-br from-primary/10 to-primary/5 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-105 transition-transform duration-200">
+                    <Zap className="w-10 h-10 text-primary" />
                   </div>
-                  <h4 className="font-semibold mb-2">High Performance</h4>
-                  <p className="text-sm text-muted-foreground">
+                  <h4 className="font-semibold mb-3 text-lg">High Performance</h4>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
                     Achieve fast loading and smooth interactions through best practices
                   </p>
                 </div>
@@ -148,11 +152,11 @@ export default function AboutPage() {
             <h3 className="text-2xl font-bold mb-6">Contact Me</h3>
             <div className="flex justify-center gap-4">
               <Button variant="outline" size="lg" className="flex items-center gap-2">
-                <Github className="w-4 h-4" />
+                <Code2 className="w-4 h-4" />
                 GitHub
               </Button>
               <Button variant="outline" size="lg" className="flex items-center gap-2">
-                <Linkedin className="w-4 h-4" />
+                <Monitor className="w-4 h-4" />
                 LinkedIn
               </Button>
               <Button size="lg" className="flex items-center gap-2">
