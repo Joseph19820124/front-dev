@@ -245,6 +245,8 @@ CMD ["npm", "start"]
 
 ---
 
+https://dash.yfjc.xyz/api/v1/client/subscribe?token=607fa456f8b552a82e4f91673921471a
+
 ## 总结
 
 此项目已完全准备好部署到 Railway。只需连接 GitHub 仓库，Railway 会自动处理构建和部署过程。整个过程通常在 2-5 分钟内完成。
