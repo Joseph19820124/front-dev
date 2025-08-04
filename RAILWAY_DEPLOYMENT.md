@@ -245,7 +245,7 @@ CMD ["npm", "start"]
 
 ---
 
-https://dash.yfjc.xyz/api/v1/client/subscribe?token=607fa456f8b552a82e4f91673921471a
+
 
 ## 总结
 
